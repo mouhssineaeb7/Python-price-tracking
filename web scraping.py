@@ -46,7 +46,7 @@ def send_mail():
         server.ehlo()
         server.starttls()
         server.ehlo()
-        server.login('mouhssineaitelbouhali@gmail.com', 'STEstoria1996')
+        server.login('mouhssineaitelbouhali@gmail.com', 'password')
         subject = 'Coucou, le prix a baissé !'
         body = 'Visitez le lien Jumia: https://www.jumia.ma/32-led-hd-tv-tnt-led32m5006dk-noir-daiko-mpg53778.html'
 
